@@ -1,0 +1,158 @@
+% stack clean
+% rm -rf /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache
+% stack build -v
+Version 1.5.1, Git revision b55cd0471ec0961258e5270354be0548047c7176 (5028 commits) x86_64 hpack-0.17.1
+2017-08-01 14:15:25.837268: [debug] Checking for project config at: /home/feuerbach/tst/stack-snapshots-bug/stack.yaml
+@(Stack/Config.hs:878:9)
+2017-08-01 14:15:25.837634: [debug] Loading project config file stack.yaml
+@(Stack/Config.hs:904:13)
+2017-08-01 14:15:25.840131: [debug] Loading test-snapshot.yaml build plan from Right "/home/feuerbach/tst/stack-snapshots-bug/test-snapshot.yaml"
+@(Stack/Snapshot.hs:245:3)
+2017-08-01 14:15:25.840651: [debug] Decoding build plan from: /home/feuerbach/.stack/build-plan/lts-8.11.yaml
+@(Stack/Snapshot.hs:154:5)
+2017-08-01 14:15:26.713689: [debug] Run process: /sbin/ldconfig -p
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.715241: [debug] Process finished in 1ms: /sbin/ldconfig -p
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.715640: [debug] Run process: /usr/bin/gcc -v
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.716743: [debug] Process finished in 1ms: /usr/bin/gcc -v
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.716820: [debug] PIE enabled
+@(Stack/Setup.hs:583:17)
+2017-08-01 14:15:26.717183: [debug] Found shared library libtinfo.so.5 in 'ldconfig -p' output
+@(Stack/Setup.hs:559:29)
+2017-08-01 14:15:26.717240: [debug] Found shared library libtinfo.so.6 in 'ldconfig -p' output
+@(Stack/Setup.hs:559:29)
+2017-08-01 14:15:26.717387: [debug] Found shared library libncursesw.so.6 in 'ldconfig -p' output
+@(Stack/Setup.hs:559:29)
+2017-08-01 14:15:26.717533: [debug] Found shared library libgmp.so.10 in 'ldconfig -p' output
+@(Stack/Setup.hs:559:29)
+2017-08-01 14:15:26.717769: [debug] Did not find shared library libgmp.so.3
+@(Stack/Setup.hs:573:38)
+2017-08-01 14:15:26.717813: [debug] Using standard GHC build
+@(Stack/Setup.hs:606:9)
+2017-08-01 14:15:26.718289: [debug] Getting global package database location
+@(Stack/GhcPkg.hs:45:5)
+2017-08-01 14:15:26.718433: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db list --global
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.719008: [debug] Asking GHC for its version
+@(Stack/Setup/Installed.hs:98:13)
+2017-08-01 14:15:26.719165: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc --numeric-version
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.719654: [debug] Getting Cabal package version
+@(Stack/GhcPkg.hs:179:5)
+2017-08-01 14:15:26.719856: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db field --simple-output Cabal version
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.736855: [debug] Process finished in 18ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db list --global
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.743204: [debug] Process finished in 23ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db field --simple-output Cabal version
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.744515: [debug] Process finished in 25ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc --numeric-version
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.744652: [debug] GHC version is: ghc-8.0.2
+@(Stack/Setup/Installed.hs:102:13)
+2017-08-01 14:15:26.744761: [debug] Resolving package entries
+@(Stack/Setup.hs:248:5)
+2017-08-01 14:15:26.744874: [debug] Trying to decode /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache
+@(Data/Store/VersionTagged.hs:66:5)
+2017-08-01 14:15:26.744973: [debug] Exception ignored when attempting to load /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache: /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache: openBinaryFile: does not exist (No such file or directory)
+@(Data/Store/VersionTagged.hs:84:9)
+2017-08-01 14:15:26.745058: [debug] Failure decoding /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache
+@(Data/Store/VersionTagged.hs:73:13)
+2017-08-01 14:15:26.745138: [debug] Trying to decode /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/lts-8.11.cache
+@(Data/Store/VersionTagged.hs:66:5)
+2017-08-01 14:15:26.786267: [debug] Success decoding /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/lts-8.11.cache
+@(Data/Store/VersionTagged.hs:70:13)
+2017-08-01 14:15:26.818018: [debug] Encoding /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache
+@(Data/Store/VersionTagged.hs:48:5)
+2017-08-01 14:15:26.827000: [debug] Finished writing /home/feuerbach/.stack/loaded-snapshot-cache/x86_64-linux/ghc-8.0.2/custom-test-snapshot-sgEuTDdfyeOX.cache
+@(Data/Store/VersionTagged.hs:53:5)
+2017-08-01 14:15:26.827909: [debug] Starting to execute command inside EnvConfig
+@(Stack/Runners.hs:168:18)
+2017-08-01 14:15:26.827978: [debug] Parsing the targets
+@(Stack/Build/Target.hs:481:3)
+2017-08-01 14:15:26.858310: [debug] Exception ignored when attempting to load /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-build-cache: /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-build-cache: openBinaryFile: does not exist (No such file or directory)
+@(Data/Store/VersionTagged.hs:84:9)
+2017-08-01 14:15:26.858513: [debug] Start: getPackageFiles /home/feuerbach/tst/stack-snapshots-bug/test-package.cabal
+@(Stack/Package.hs:254:21)
+2017-08-01 14:15:26.858886: [debug] Finished in 0ms: getPackageFiles /home/feuerbach/tst/stack-snapshots-bug/test-package.cabal
+@(Stack/Package.hs:254:21)
+2017-08-01 14:15:26.859117: [debug] Finding out which packages are already installed
+@(Stack/Build/Installed.hs:61:5)
+2017-08-01 14:15:26.859305: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --global --no-user-package-db dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.881054: [debug] Process finished in 21ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --global --no-user-package-db dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.881379: [debug] Ignoring package haskeline due to wanting version 0.7.3.1 instead of 0.7.3.0
+@(Stack/Build/Installed.hs:191:5)
+2017-08-01 14:15:26.881876: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --no-user-package-db --package-db /home/feuerbach/.stack/snapshots/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.896240: [debug] Process finished in 14ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --no-user-package-db --package-db /home/feuerbach/.stack/snapshots/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.896431: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --no-user-package-db --package-db /home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.911277: [debug] Process finished in 14ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --no-user-package-db --package-db /home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb dump --expand-pkgroot
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.911693: [debug] Constructing the build plan
+@(Stack/Build/ConstructPlan.hs:180:5)
+2017-08-01 14:15:26.913108: [debug] Checking if we are going to build multiple executables with the same name
+@(Stack/Build.hs:171:5)
+2017-08-01 14:15:26.913181: [debug] Executing the build plan
+@(Stack/Build/Execute.hs:465:5)
+2017-08-01 14:15:26.913385: [debug] Getting global package database location
+@(Stack/GhcPkg.hs:45:5)
+2017-08-01 14:15:26.913438: [debug] Run process: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db list --global
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.937692: [debug] Process finished in 24ms: /home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --no-user-package-db list --global
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:26.938057: [debug] Exception ignored when attempting to load /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-config-cache: /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-config-cache: openBinaryFile: does not exist (No such file or directory)
+@(Data/Store/VersionTagged.hs:84:9)
+2017-08-01 14:15:26.938243: [debug] Exception ignored when attempting to load /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-cabal-mod: /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-cabal-mod: openBinaryFile: does not exist (No such file or directory)
+@(Data/Store/VersionTagged.hs:84:9)
+2017-08-01 14:15:26.938369: [info] test-package-0.1.0.0: configure (lib)
+@(Stack/Build/Execute.hs:813:23)
+2017-08-01 14:15:26.939073: [debug] Run process: /home/feuerbach/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_1.24.2.0_ghc-8.0.2 --builddir=.stack-work/dist/x86_64-linux/Cabal-1.24.2.0 configure --with-ghc=/home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc --with-ghc-pkg=/home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --package-db=clear --package-db=global --package-db=/home/feuerbach/.stack/snapshots/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb --package-db=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb --libdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/lib --bindir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/bin --datadir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/share --libexecdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/libexec --sysconfdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/etc --docdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --htmldir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --haddockdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --dependency=algebraic-graphs=algebraic-graphs-0.0.4-3zHm8QPVeBsBWAhDQStOLS --dependency=base=base-4.9.1.0 --enable-tests --enable-benchmarks
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:27.196905: [info] Configuring test-package-0.1.0.0...
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.304419: [debug] Process finished in 365ms: /home/feuerbach/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_1.24.2.0_ghc-8.0.2 --builddir=.stack-work/dist/x86_64-linux/Cabal-1.24.2.0 configure --with-ghc=/home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc --with-ghc-pkg=/home/feuerbach/.stack/programs/x86_64-linux/ghc-8.0.2/bin/ghc-pkg --user --package-db=clear --package-db=global --package-db=/home/feuerbach/.stack/snapshots/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb --package-db=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/pkgdb --libdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/lib --bindir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/bin --datadir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/share --libexecdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/libexec --sysconfdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/etc --docdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --htmldir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --haddockdir=/home/feuerbach/tst/stack-snapshots-bug/.stack-work/install/x86_64-linux/custom-test-snapshot-sgEuTDdfyeOX/8.0.2/doc/test-package-0.1.0.0 --dependency=algebraic-graphs=algebraic-graphs-0.0.4-3zHm8QPVeBsBWAhDQStOLS --dependency=base=base-4.9.1.0 --enable-tests --enable-benchmarks
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:27.304667: [debug] Encoding /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-config-cache
+@(Data/Store/VersionTagged.hs:48:5)
+2017-08-01 14:15:27.304938: [debug] Finished writing /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-config-cache
+@(Data/Store/VersionTagged.hs:53:5)
+2017-08-01 14:15:27.305085: [debug] Encoding /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-cabal-mod
+@(Data/Store/VersionTagged.hs:48:5)
+2017-08-01 14:15:27.305258: [debug] Finished writing /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-cabal-mod
+@(Data/Store/VersionTagged.hs:53:5)
+2017-08-01 14:15:27.305405: [debug] Encoding /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-build-cache
+@(Data/Store/VersionTagged.hs:48:5)
+2017-08-01 14:15:27.305576: [debug] Finished writing /home/feuerbach/tst/stack-snapshots-bug/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/stack-build-cache
+@(Data/Store/VersionTagged.hs:53:5)
+2017-08-01 14:15:27.305661: [info] test-package-0.1.0.0: build (lib)
+@(Stack/Build/Execute.hs:813:23)
+2017-08-01 14:15:27.305809: [debug] Run process: /home/feuerbach/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_1.24.2.0_ghc-8.0.2 --builddir=.stack-work/dist/x86_64-linux/Cabal-1.24.2.0 build lib:test-package --ghc-options " -ddump-hi -ddump-to-file"
+@(System/Process/Read.hs:292:3)
+2017-08-01 14:15:27.325082: [info] Preprocessing library test-package-0.1.0.0...
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.376219: [info] [1 of 1] Compiling Test             ( Test.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Test.o )
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.403321: [warn]
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.404803: [warn] /home/feuerbach/tst/stack-snapshots-bug/Test.hs:6:8: error:
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.404920: [warn]     Not in scope: ‘Graph.dfsForestFrom’
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.404972: [warn]     Perhaps you meant ‘Graph.dfsForest’ (imported from Algebra.Graph.AdjacencyMap)
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.405047: [warn]     Module ‘Algebra.Graph.AdjacencyMap’ does not export ‘dfsForestFrom’.
+@(Stack/Build/Execute.hs:1080:67)
+2017-08-01 14:15:27.417112: [debug] Start: getPackageFiles /home/feuerbach/tst/stack-snapshots-bug/test-package.cabal
+@(Stack/Package.hs:254:21)
+2017-08-01 14:15:27.417590: [debug] Finished in 0ms: getPackageFiles /home/feuerbach/tst/stack-snapshots-bug/test-package.cabal
+@(Stack/Package.hs:254:21)
+
+--  While building package test-package-0.1.0.0 using:
+      /home/feuerbach/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_1.24.2.0_ghc-8.0.2 --builddir=.stack-work/dist/x86_64-linux/Cabal-1.24.2.0 build lib:test-package --ghc-options " -ddump-hi -ddump-to-file"
+    Process exited with code: ExitFailure 1
